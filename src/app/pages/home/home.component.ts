@@ -15,9 +15,7 @@ import { MenuBarComponent } from '../../angularblog/component/menu-bar/menu-bar.
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-  photoCover:string=""
-  contentTitle:string=""
-  contentDescription:string=""
+
 
 constructor(){ }
 
