@@ -11,13 +11,15 @@ import { HomeModule } from '../pages/home/home.module';
 
 
 
+
+
 @NgModule({
   declarations: [MenuTitleComponent,
     BigCardComponent,
     SmallCardComponent,
     MenuBarComponent,
-
-    HomeComponent],
+    HomeComponent
+  ],
   imports: [AngularblogModule,
     CommonModule, HomeModule]
 

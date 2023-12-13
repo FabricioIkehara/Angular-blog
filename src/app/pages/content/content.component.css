@@ -20,3 +20,15 @@ border:1px solid gray;
   min-width: 500px;
   height: 300px;
 }
+
+.container__description{
+
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  /* border: 1px solid white; */
+  margin-left: 120px;
+  margin-right: 120px ;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}

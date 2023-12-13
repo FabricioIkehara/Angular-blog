@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-big-card',
   standalone: true,
@@ -16,6 +17,8 @@ export class BigCardComponent  implements OnInit {
   cardTitle: string =""
   @Input()
   cardDescription: string =""
+  @Input()
+  id: string="0"
 
 
 
